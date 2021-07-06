@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    color: #1B242E;
+}
+
+button {
+    font-size: 20px;
+    padding: 6px 40px;
+    background: #64ffda;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+    justify-self: center;
+    margin-top: 4px;
+    color: #1B242E;
+}
+
+
+/* CSS for header starts here */
+
+#logo {
+    background-image: url('./logo.png');
+    height: 60px;
+    background-size: 17em;
+    background-repeat: no-repeat;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 1px rgb(224, 218, 218);
+}
+
+#slider {
+    background-image: url('event-hall.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu .link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #52636E;
+}
+
+#menu>.link:hover {
+    color: #1B242E;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 16% 16% 16%;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+#menu .active {
+    color: #1B242E;
+}
+
+
+/* CSS for header ends here */
+
+
+/* CSS for cards starts here */
+
+#cards {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-evenly;
+    margin-top: -10px;
+}
+
+.card {
+    display: grid;
+    background: #E2E2E2;
+    box-shadow: gray;
+    padding: 16px 4px 10px 4px;
+    box-shadow: 1px 1px 3px 1px gray;
+    justify-items: center;
+}
+
+.card>table {
+    width: 86%;
+}
+
+.upcoming-event {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.speaker-img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+
+.speaker-name {
+    justify-self: center;
+    margin-top: 2px;
+}
+
+.speaker-info {
+    margin-top: -10px;
+}
+
+th {
+    text-align: left;
+}
+
+
+/* CSS for cards ends here */
+
+
+/* CSS for Registration Form starts here */
+
+#submit-button {
+    padding: 10px 40px;
+}
+
+#form {
+    display: grid;
+    justify-items: center;
+}
+
+#reg-form {
+    border: solid 2px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2.4em;
+    padding: 8px 12px 30px 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #52636E;
+}
+
+input {
+    width: 46.6%;
+    padding-left: 30px;
+}
+
+input,
+select {
+    font-size: 20px;
+    padding: 6px 2px;
+    margin-top: 4px;
+}
+
+select {
+    width: 96%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-items,
+#submit-button {
+    margin-top: 20px;
+}
+
+
+/* CSS for Registration Form ends here */
+
+
+/* CSS for Events page starts here */
+
+.register {
+    background: #64ffda;
+}
+
+.close {
+    background: #df5d5dab;
+}
+
+
+/* CSS for Events page ends here */
